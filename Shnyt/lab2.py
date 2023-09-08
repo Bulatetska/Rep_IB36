@@ -1,4 +1,6 @@
-def check_cost(cost: int):
+from typing import Optional
+
+def check_cost(cost: int) -> float:
     discount = 0
     if cost > 1000:
         discount = 0.1 * cost
@@ -9,7 +11,7 @@ def check_cost(cost: int):
     
     return cost-discount
 
-def check_len(vari: str):
+def check_len(vari: str) -> Optional[str]:
     return None if len(vari) == 0 else vari
 
 print(check_cost(2000))
