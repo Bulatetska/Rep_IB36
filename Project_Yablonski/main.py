@@ -16,7 +16,7 @@ print(f"Поточний pin: {client_one.get_pin()}")
 #client1.change_pin("5678")
 
 # Зняття коштів
-atm1.withdraw_cash(client_one, 200, "1234")
+atm1.withdraw_cash(client_one, 200, "1235")
 
 # Внесення коштів
 atm1.deposit_cash(client_one,200, "1234")
