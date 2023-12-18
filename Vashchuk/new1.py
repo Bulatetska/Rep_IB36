@@ -97,8 +97,8 @@ bank.add_atm(atm2)
 
 print("Client 1 balance:", bank.atms[0].check_balance(client1))
 
-if bank.verify_pin(client1, "1321") and bank.atms[0].withdraw_cash(client1, 200):
-    print("Withdrawal successful. Remaining balance:", client1.get_balance())
+if bank.verify_pin(client1, "1234") and bank.atms[0].withdraw_cash(client1, 200):
+    print("Withdrawal was successful. Remaining balance:", client1.get_balance())
     print("ATM 1 cash available:", bank.atms[0].cash_available)
 else:
     print("Withdrawal failed.")
