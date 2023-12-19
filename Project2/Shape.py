@@ -1,5 +1,5 @@
 class Shape(ABC):
-    def init(self):
+    def __init__(self):
         pass
     def calculate_area(self):
         pass

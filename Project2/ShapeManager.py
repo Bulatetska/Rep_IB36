@@ -1,5 +1,5 @@
 class ShapeManager:
-    def init(self):
+    def __init__(self):
         self.shapes = []
 
     def create_rectangle(self, length, width):
