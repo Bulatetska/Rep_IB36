@@ -1,5 +1,7 @@
+from operation import Operation
+
 class Bank:
-    def init(self):
+    def __init__(self):
         self.clients = []
         self.atms = []
         self.operations = []

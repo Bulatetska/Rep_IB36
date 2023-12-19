@@ -1,5 +1,5 @@
-class ATM:
-    def init(self, cash_available):
+class Atm:
+    def __init__(self, cash_available):
         self.cash_available = cash_available
 
     def check_balance(self, client):
