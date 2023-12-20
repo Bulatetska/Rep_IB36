@@ -1,3 +1,6 @@
+from rectangle import Rectangle
+from circle import Circle
+
 class ShapeManager:
     def __init__(self):
         self.shapes = []
@@ -24,4 +27,3 @@ class ShapeManager:
             shape.display_info()
             print(f"Area: {shape.calculate_area()}, Perimeter: {shape.calculate_perimeter()}")
             print("-" * 20)
-manager = ShapeManager()
